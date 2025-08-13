@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'momot';
+    src: url('font/momot___-webfont.woff2') format('woff2'),
+         url('font/momot___-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+    background-image: url(project_image/peakpx.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(74, 74, 133);
+    opacity: 0.7;
+
+}
+
+figure figcaption {
+    font-family: 'momot';
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.3rem;
+}
+
+footer a:hover {
+    opacity: 0.5;
+}
+
+form {
+    background: whitesmoke;
+}
+
+form h1 {
+    margin-top: 50px;
+    font-family: 'momot';
+    font-size: 2.5rem;
+    color: rgb(74, 74, 133);
+    text-align: center;
+}
+
+
+form p {
+    width: 80%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+form > p {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+fieldset legend {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    padding-top: 50px;
+}
+
+legend strong {
+    font-family: 'momot';
+    font-style: italic;
+    color: rgb(74, 74, 133);
+}
+
+
+fieldset {
+    width: 80%;
+    margin: 0px 50px;
+    padding-bottom: 20px;
+    border: none;
+    box-shadow: 0px 11px 12px -7px rgba(202,195,195,0.43);
+}
+
+fieldset {
+    display: flex;
+}
+
+label, input {
+    display: block;
+    width: 80%;
+    height: 30px;
+}
+
+label {
+    color:rgb(78, 74, 74);
+    padding-top: 20px;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+
+input {
+    padding: 10px;
+    border:1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+button {
+    font-size: 1rem;
+    font-size: larger;
+    color: whitesmoke;
+    margin: 20px 50px;
+    padding: 5px 100px;
+    background: rgb(74, 74, 133);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+form p:last-of-type {
+    margin-top: 0px;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p a {
+    font-family: 'momot';
+    text-decoration: none;
+    color: rgb(74, 74, 133);
+}
+
+p a:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

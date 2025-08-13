@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user_login</title>
+
+    <style>
+        @font-face {
+            font-family: momot;
+            src: url('font/momot___-webfont.woff') format('woff'),
+                 url('font/momot___-webfont.woff2') format('woff2');
+            font-weight: bolder;
+            font-size: normal;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+            background-color: whitesmoke;
+            overflow: hidden;
+        }
+
+        form {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            height: 450px;
+            /* height: auto; */
+            border-radius: 20px;
+            background-color: rgb(74, 74, 133);
+            opacity: 0.7;
+            box-shadow: 0px 11px 12px -7px rgba(202,195,195,0.43);
+        }
+
+        figure {
+            position: absolute;
+            top: -70px;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            margin-bottom: 30px;
+        }
+
+        figure img {
+            margin: 0 auto;
+        }
+
+        figcaption {
+            text-align: center;
+            font-family: 'momot';
+            font-size: 2rem;
+            color: aliceblue;
+        }
+
+        form p {
+             width: 80%;
+        }
+
+        label, input {
+            display: block;
+            width: 100%;
+        }
+
+        label {
+            margin-top: 30px;
+            color: aliceblue;
+        }
+
+        input {
+            height: 20px;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid rgb(78, 74, 74);
+        }
+
+        button {
+            font-size: 1rem;
+            font-size: larger;
+            color: whitesmoke;
+            margin: 30px 50px;
+            padding: 5px 100px;
+            background: rgb(15, 15, 71);
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="">
+
+        <figure>
+            <img src="project_image/linux-svgrepo-com (1).svg" width="100px" alt="">
+            <figcaption>
+                Linux
+            </figcaption>
+        </figure>
+       <p>
+            <label for="username">USERNAME</label>
+            <input type="text" id="username">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password">
+       </p> 
+
+       <button>Login</button>
+        
+    </form>
+</body>
+</html>
